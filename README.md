@@ -27,5 +27,6 @@ In this module, I had to extract data from Wikipedia and Kaggle from files, tran
 6. used .CSV and .JSON files for the function
 7. remove all exploratory data that can be helpful to understand the clean dataset
 
+Review the following file: Challenge.py
 
 
