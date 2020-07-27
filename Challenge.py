@@ -314,6 +314,7 @@ def uploadMovie(wiki_movies, kaggle_metadata, ratings):
         session.execute('''TRUNCATE TABLE movies''')
         session.commit()
         session.close()
+        print('Deleted content in movies sql table')
 
     except:
         print("deleting movies info error...")
@@ -326,6 +327,7 @@ def uploadMovie(wiki_movies, kaggle_metadata, ratings):
         session.execute('''TRUNCATE TABLE ratings''')
         session.commit()
         session.close()
+        print('Deleted content in ratings sql table')
 
     except:
         print("deleting ratings info error...")
