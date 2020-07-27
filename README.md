@@ -20,7 +20,7 @@ In this module, I had to extract data from Wikipedia and Kaggle files, transform
 
 ## Assumptions
 1. Release dates are entered in the following formats:  YYYY, MM DD YYYY, YYYY MM DD, MM YYYY
-2. Budget and revenue has two formats:  $123.4 million/billion
+2. Budget and revenue has two formats:  $123.4 million/billion &/or 123,456,789
 3. remove null values from Wikipedia dataset
 4. replace NaN with zero to utilize the dataset
 5. Runtime doesn't include second.  All entries measurement of hours, hours + minutes, or minutes
