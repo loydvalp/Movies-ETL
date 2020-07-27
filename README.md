@@ -1,7 +1,8 @@
 # Movies-ETL 
 
 ## Project Overview
-In module 8, I learned how to use the Extract, Transform, Load (ETL) process to create a data pipeline.  It is a combined  three database function that pull data from a source database and put it into another dataebase (destination).  Also, it creates data pipelines that can transform data along the way.  ETL is essential to data analysis.  
+
+In module 8, I learned how to use the Extract, Transform, Load (ETL) process to create a data pipeline. It is a combined three database function that pulls data from a source database and puts it into another database (destination). Also, it creates data pipelines that can transform data along the way. ETL is essential to data analysis.
 
 ## Resources
 
@@ -10,7 +11,7 @@ In module 8, I learned how to use the Extract, Transform, Load (ETL) process to 
 
 ## Challenge Overview
 
-In this module, I had to extract data from Wikipedia and Kaggle from files, transform the datasets by cleaning up the joining the files together, and load dataset into a SQL database. Since this process will be run without supervision, I didn't need to peform exploratory data analysis steps.  Since there will be new data coming in which will contains errors, it may stop process or corrupt data.  I had to add a try-except blocks that will ETL process more robust to errors.  The assumption was that the updated data will stay in the same format.  The code of this challenge was:
+In this module, I had to extract data from Wikipedia and Kaggle from files, transform the datasets by cleaning up the joining the files together, and load the dataset into a SQL database. Since this process will be run without supervision, I didn't need to perform exploratory data analysis steps. Since there will be new data coming in which will contain errors, it may stop the process or corrupt data. I had to add a try-except block that will ETL process more robust to errors. The assumption was that the updated data will stay in the same format. The code of this challenge was:
 
 - Create an automated ETL pipeline.
 - Extract data from multiple sources.
