@@ -11,7 +11,7 @@ In module 8, I learned how to use the Extract, Transform, Load (ETL) process to 
 
 ## Challenge Overview
 
-In this module, I had to extract data from Wikipedia and Kaggle files, transform the datasets by cleaning up the joining the files together, and load the dataset into a SQL database. Since this process will be run without supervision, I didn't need to perform exploratory data analysis steps. Since there will be new data coming in which may contain errors, it may stop the process or corrupt data. I had to add a try-except block that will ETL process more robust to errors. The assumption was that the updated data will stay in the same format. The code of this challenge was:
+In this module, I had to extract data from Wikipedia and Kaggle files, transform the datasets by cleaning up the joining the files together, and load the dataset into a SQL database. Since this process will be run without supervision, I didn't need to perform exploratory data analysis steps. Since there will be new data coming in which may contain errors, it may stop the process or corrupt data. I had to add a try-except block that will help ETL process become more robust to errors. The assumption was that the updated data will stay in the same format. The code of this challenge was:
 
 - Create an automated ETL pipeline.
 - Extract data from multiple sources.
